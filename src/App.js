@@ -1,26 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Toolbar from './Components/Toolbar';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Home from './Components/Home';
+import Favorite from './Components/favorite';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            IsShowHomePage: true,
+        };
+        toast.configure({
+            autoClose: 4000,
+            draggable: true,
+        });
+    }
+
+
+
+
+    onChange(param) {
+        let temp = this.state;
+        temp.IsShowHomePage = param;
+        this.setState(temp);
+    }
+
+    render() {
+        return (
+            <div><Toolbar ChangePage={this.onChange.bind(this)} />
+                {this.state.IsShowHomePage === true ? <Home /> : <Favorite />}
+            </div>
+        );
+    }
 }
 
 export default App;

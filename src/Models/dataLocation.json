@@ -1,0 +1,122 @@
+[
+  {
+    "Version": 1,
+    "Key": "351089",
+    "Type": "City",
+    "Rank": 35,
+    "LocalizedName": "MemphisASD",
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "TN",
+      "LocalizedName": "Tennessee"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "2243449",
+    "Type": "City",
+    "Rank": 75,
+    "LocalizedName": "Memphis",
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "FL",
+      "LocalizedName": "Florida"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "2231495",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "Memphis",
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "AL",
+      "LocalizedName": "Alabama"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "2136709",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "Memphis",
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "IN",
+      "LocalizedName": "Indiana"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "2227844",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "Memphis",
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "MI",
+      "LocalizedName": "Michigan"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "334065",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "Memphis",
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "MO",
+      "LocalizedName": "Missouri"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "2154011",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "Memphis",
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "NE",
+      "LocalizedName": "Nebraska"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "335843",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "Memphis",
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "TX",
+      "LocalizedName": "Texas"
+    }
+  }
+]
